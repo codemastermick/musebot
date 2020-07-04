@@ -15,7 +15,7 @@ Running a Discord bot is not terribly hard, but it does require a little bit of 
 1. Head over to the Bot tab and click "Add a Bot"
 1. Give your bot a username and click the link that says "Click to Reveal Token"
 1. Copy that token exactly as it is shown, and paste it into .env-SAMPLE and rename the file to `.env`
-1. Now just run `node .\bot.js` in the terminal to start your bot
+1. Now just run `npm start` in the terminal to start your bot
 
 
 ## Supported Commands
