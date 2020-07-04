@@ -71,6 +71,10 @@ function getRandomAnimal(msg){
 }
 
 function getXWords(msg,x){
+    if(x<=0){
+        msg.channel.send('Sorry, I need at least a 1.');
+        return;
+    }
     let words=[]
     for (let i = 0; i < x; i++) {
         words[i]=getRandomWord(msg);
